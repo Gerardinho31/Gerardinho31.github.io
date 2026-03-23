@@ -1,0 +1,53 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Réseau de nœuds -->
+  <defs>
+    <radialGradient id="nodeGradient">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.7" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Nœuds centraux -->
+  <circle cx="200" cy="150" r="25" fill="url(#nodeGradient)"/>
+  <text x="200" y="155" text-anchor="middle" fill="white" font-size="12" font-weight="bold">A</text>
+  
+  <!-- Nœuds périphériques -->
+  <circle cx="100" cy="80" r="18" fill="#3b82f6" opacity="0.8"/>
+  <text x="100" y="85" text-anchor="middle" fill="white" font-size="10" font-weight="bold">B</text>
+  
+  <circle cx="300" cy="80" r="18" fill="#3b82f6" opacity="0.8"/>
+  <text x="300" y="85" text-anchor="middle" fill="white" font-size="10" font-weight="bold">C</text>
+  
+  <circle cx="100" cy="220" r="18" fill="#3b82f6" opacity="0.8"/>
+  <text x="100" y="225" text-anchor="middle" fill="white" font-size="10" font-weight="bold">D</text>
+  
+  <circle cx="300" cy="220" r="18" fill="#3b82f6" opacity="0.8"/>
+  <text x="300" y="225" text-anchor="middle" fill="white" font-size="10" font-weight="bold">E</text>
+  
+  <circle cx="50" cy="150" r="18" fill="#3b82f6" opacity="0.8"/>
+  <text x="50" y="155" text-anchor="middle" fill="white" font-size="10" font-weight="bold">F</text>
+  
+  <circle cx="350" cy="150" r="18" fill="#3b82f6" opacity="0.8"/>
+  <text x="350" y="155" text-anchor="middle" fill="white" font-size="10" font-weight="bold">G</text>
+  
+  <!-- Liens -->
+  <line x1="200" y1="150" x2="100" y2="80" stroke="#4a5568" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="150" x2="300" y2="80" stroke="#4a5568" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="150" x2="100" y2="220" stroke="#4a5568" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="150" x2="300" y2="220" stroke="#4a5568" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="150" x2="50" y2="150" stroke="#4a5568" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="150" x2="350" y2="150" stroke="#4a5568" stroke-width="2" opacity="0.6"/>
+  <line x1="100" y1="80" x2="300" y2="80" stroke="#4a5568" stroke-width="1" opacity="0.4"/>
+  <line x1="100" y1="220" x2="300" y2="220" stroke="#4a5568" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Légende -->
+  <text x="200" y="280" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Réseau social</text>
+  <text x="200" y="295" text-anchor="middle" fill="#6b7280" font-size="11">Nœuds et liens</text>
+</svg>
+
+
+
+
+
+
+
