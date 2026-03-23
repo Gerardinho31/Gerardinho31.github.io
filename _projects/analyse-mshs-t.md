@@ -2,7 +2,7 @@
 layout: default
 title: "Analyse des collaborations intersciences des unités de recherches toulousaines"
 description: "Cartographie par analyse de réseaux des collaborations interdisciplinaires entre unités de recherche toulousaines (2019–2025), à partir de trois dispositifs de financement (MSHS-T, TIRIS, Défis-clés Occitanie), pour évaluer l'état des relations intersciences entre SHS et sciences exactes, expérimentales et du vivant au sein de la COMUE."
-image: "/assets/img/mshs-t-reseau.png"
+image: "/assets/img/Reseau_global_collaborations_interlaboratores.png"
 tools: "R, Gephi, IRaMuTeQ"
 date: 2026-03-19
 ---
@@ -17,7 +17,7 @@ Enfin, des visualisations de graphes (notamment via des algorithmes de spatialis
 
 ## Aperçu Visuel
 
-![Réseau MSHS-T]({{ "/assets/img/mshs-t-reseau.png" | relative_url }})
+![Réseau MSHS-T]({{ "/assets/img/Reseau_global_collaborations_interlaboratores.png" | relative_url }})
 
 ## Technologies utilisées
 - **R** pour le traitement des données et l'analyse des réseaux
@@ -25,3 +25,6 @@ Enfin, des visualisations de graphes (notamment via des algorithmes de spatialis
 - **IRaMuTeQ** pour l'analyse léximotrique
 
 *Le code source complet et les rapports de ce projet sont disponibles dans le dossier `Analyse MSHS-T` de mon répertoire.*
+
+## 📈 Résultats et Apports
+*(À compléter : décrivez ici vos conclusions sur les collaborations intersciences à Toulouse)*

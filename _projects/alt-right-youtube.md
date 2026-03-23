@@ -22,3 +22,6 @@ Ce projet analyse le rôle des chaînes YouTube conservatrices dans la structura
 - **Python** pour le nettoyage et l'analyse des données (extraction des entités nommées, visualisations graphiques)
 
 *Le code source complet de ce projet est disponible dans le dossier `Analyse de l'alt-right sur Youtube` de mon répertoire.*
+
+## 📈 Résultats et Apports
+*(À compléter : décrivez ici vos principales conclusions sur la guerre culturelle et Hollywood)*

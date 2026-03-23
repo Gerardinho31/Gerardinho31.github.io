@@ -3,7 +3,7 @@ layout: default
 title: "Humanités numériques & histoire de l'art : reconnaissance automatisée des œuvres de la famille Pedoya dans les églises du Midi toulousain"
 description: "Développement d'un système de reconnaissance automatisée des médaillons de plafond d'églises du Midi toulousain attribués aux peintres piémontais Pedoya (XIXe siècle), combinant détection géométrique (Transformée de Hough) et classification par deep learning (ResNet-50) sur un corpus de 3 759 images — aboutissant à un outil capable d'analyser des photographies panoramiques d'édifices religieux."
 
-image: "/assets/img/Base de données.png"
+image: "/assets/img/Machine_learning_Pedoya.png"
 tools: "Python, PyTorch, ResNet-50"
 date: 2025-11-23
 ---
@@ -13,7 +13,7 @@ Ce projet applique les méthodes de l'intelligence artificielle à un défi d'hi
 
 ## Architecture des Données
 
-![Schéma de données]({{ "/assets/img/Base de données.png" | relative_url }})
+![Schéma de données]({{ "/assets/img/Machine_learning_Pedoya.png" | relative_url }})
 
 ## Outils et Méthodes
 - **PyTorch** pour la modélisation en Deep Learning
@@ -21,3 +21,6 @@ Ce projet applique les méthodes de l'intelligence artificielle à un défi d'hi
 - **Evaluation** : précision, rappel, et matrice de confusion
 
 *Le rapport complet "Rapport_Synthese_ML_Pedoya--Version finale.pdf" se trouve dans le projet original.*
+
+## 📈 Résultats et Apports
+*(À compléter : décrivez ici les performances de votre modèle ResNet-50 et l'efficacité du Smart Scanner)*

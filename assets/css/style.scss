@@ -1,0 +1,165 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// --- Variables ---
+$primary-color: #2563eb; // Modern Blue
+$text-color: #1e293b;    // Slate 800
+$bg-color: #f8fafc;      // Slate 50
+$card-bg: #ffffff;
+$border-color: #e2e8f0;
+
+// --- Global Styles ---
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 1000px;
+}
+
+// --- Header & Navigation ---
+.site-header {
+  border-top: 5px solid $primary-color;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.site-title {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: $primary-color !important;
+}
+
+// --- Home Page / Projects Grid ---
+.home {
+  padding-top: 2rem;
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: #0f172a;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-bottom: 3rem;
+  }
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card {
+  background: $card-bg;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-image-container {
+    height: 180px;
+    background: #f1f5f9;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .project-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-date {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+    a {
+      color: #1e293b;
+      text-decoration: none;
+      &:hover { color: $primary-color; }
+    }
+  }
+
+  .project-excerpt {
+    font-size: 0.95rem;
+    color: #475569;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .project-tools {
+    margin-top: auto;
+    font-size: 0.8rem;
+    color: $primary-color;
+    font-weight: 600;
+    background: #eff6ff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    display: inline-block;
+    width: fit-content;
+  }
+}
+
+// --- CV Section ---
+.cv-section {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid $border-color;
+  text-align: center;
+
+  .btn-cv {
+    display: inline-block;
+    background: $primary-color;
+    color: white !important;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+    
+    &:hover {
+      background: #1e40af;
+    }
+  }
+}
