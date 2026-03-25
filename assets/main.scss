@@ -5,11 +5,12 @@
 @import "minima";
 
 // --- Variables ---
-$primary-color: #2563eb; // Modern Blue
-$text-color: #1e293b;    // Slate 800
-$bg-color: #f8fafc;      // Slate 50
-$card-bg: #ffffff;
-$border-color: #e2e8f0;
+$primary-color: #38bdf8; // Bright modern blue (Sky 400)
+$text-color: #f8fafc;    // Very light slate (Slate 50)
+$text-muted: #94a3b8;    // Slate 400
+$bg-color: #0f172a;      // Dark background (Slate 900)
+$card-bg: #1e293b;       // Darker card background (Slate 800)
+$border-color: #334155;  // Slate 700
 
 // --- Global Styles ---
 body {
@@ -26,8 +27,9 @@ body {
 // --- Header & Navigation ---
 .site-header {
   border-top: 5px solid $primary-color;
-  background: white;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background: $bg-color;
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
 }
 
 .site-title {
@@ -38,19 +40,21 @@ body {
 
 // --- Home Page / Projects Grid ---
 .home {
-  padding-top: 2rem;
+  padding-top: 3rem;
   
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
-    color: #0f172a;
+    color: #ffffff;
+    letter-spacing: -1px;
   }
   
   .description {
-    font-size: 1.1rem;
-    color: #64748b;
-    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    color: $text-muted;
+    margin-bottom: 4rem;
+    max-width: 600px;
   }
 }
 
@@ -72,13 +76,14 @@ body {
   flex-direction: column;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    border-color: $primary-color;
   }
 
   .project-image-container {
-    height: 180px;
-    background: #f1f5f9;
+    height: 200px;
+    background: #0f172a;
     overflow: hidden;
     
     img {
@@ -97,19 +102,21 @@ body {
 
   .project-date {
     font-size: 0.8rem;
-    color: #94a3b8;
+    color: $primary-color;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
   }
 
   h3 {
-    margin: 0 0 0.75rem 0;
-    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+    font-size: 1.35rem;
     font-weight: 700;
+    line-height: 1.3;
     
     a {
-      color: #1e293b;
+      color: #ffffff;
       text-decoration: none;
       &:hover { color: $primary-color; }
     }
@@ -117,7 +124,7 @@ body {
 
   .project-excerpt {
     font-size: 0.95rem;
-    color: #475569;
+    color: $text-muted;
     margin-bottom: 1.5rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -126,40 +133,62 @@ body {
     overflow: hidden;
   }
 
-  .project-tools {
+  .project-tools-container {
     margin-top: auto;
-    font-size: 0.8rem;
-    color: $primary-color;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .project-tools {
+    font-size: 0.75rem;
+    color: #bae6fd;
     font-weight: 600;
-    background: #eff6ff;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.2);
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
-    display: inline-block;
-    width: fit-content;
   }
 }
 
 // --- CV Section ---
 .cv-section {
-  margin-top: 4rem;
-  padding: 2rem;
-  background: white;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  background: $card-bg;
   border-radius: 12px;
   border: 1px solid $border-color;
   text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+
+  h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: $text-muted;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
 
   .btn-cv {
     display: inline-block;
     background: $primary-color;
-    color: white !important;
-    padding: 0.75rem 2rem;
+    color: #0f172a !important;
+    padding: 1rem 2.5rem;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.1rem;
     text-decoration: none;
-    transition: background 0.2s;
+    transition: all 0.2s;
     
     &:hover {
-      background: #1e40af;
+      background: #7dd3fc;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgba(56, 189, 248, 0.4);
     }
   }
 }

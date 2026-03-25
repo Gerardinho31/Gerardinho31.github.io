@@ -1,7 +1,7 @@
 title: Gérard D'Alto - Data Analyst Portfolio
 email: gerard.dalto@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio de Gérard D'Alto, Analyste de données sociales. Découverte de mes projets, analyses, compétences et visualisations graphiques.
+  Portfolio de Gérard D'Alto, Analyste de données sociales. Présentation de mes projets, analyses, compétences et visualisations graphiques.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gerardinho31.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 

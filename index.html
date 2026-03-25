@@ -23,7 +23,12 @@ layout: default
           </h3>
           <p class="project-excerpt">{{ project.description }}</p>
           {% if project.tools %}
-            <span class="project-tools">{{ project.tools }}</span>
+          <div class="project-tools-container">
+            {% assign tools_array = project.tools | split: ", " %}
+            {% for tool in tools_array %}
+              <span class="project-tools">{{ tool | strip }}</span>
+            {% endfor %}
+          </div>
           {% endif %}
         </div>
       </li>
