@@ -23,4 +23,4 @@ Ce dossier explore les différentes formes d'isolement social dans la société 
 *Le code source et l'analyse complète de ce projet sont disponibles dans le dossier `L'isolement social au Japon` de mon répertoire.*
 
 ## 📈 Résultats et Apports
-*(À compléter : décrivez ici vos conclusions sur les facteurs socio-démographiques de l'isolement)*
+*(À compléter)*

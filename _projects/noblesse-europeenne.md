@@ -26,4 +26,4 @@ Cette étude explore comment la Révolution française a bouleversé les allianc
 *Le code source complet de ce projet est disponible dans le dossier `Réseau de la noblesse européenne` de mon répertoire.*
 
 ## 📈 Résultats et Apports
-*(À compléter : décrivez ici vos conclusions sur la reconfiguration des alliances sous Napoléon)*
+*(À compléter)*

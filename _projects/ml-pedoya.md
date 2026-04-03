@@ -23,4 +23,4 @@ Ce projet applique les méthodes de l'intelligence artificielle à un défi d'hi
 *Le rapport complet "Rapport_Synthese_ML_Pedoya--Version finale.pdf" se trouve dans le projet original.*
 
 ## 📈 Résultats et Apports
-*(À compléter : décrivez ici les performances de votre modèle ResNet-50 et l'efficacité du Smart Scanner)*
+*(À compléter)*

@@ -22,5 +22,5 @@ Ce projet porte sur le traitement médiatique de la triple catastrophe japonaise
 
 *Le code source complet de ce projet est disponible dans le dossier `La triple catastrophe du Tôhoku` de mon répertoire.*
 
-## 📈 Résultats et Apports
-*(À compléter : décrivez ici vos conclusions sur la surreprésentation médiatique du nucléaire)*
+## 📈 Résultat
+*(À compléter)*

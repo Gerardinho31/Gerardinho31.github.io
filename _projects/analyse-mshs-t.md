@@ -27,4 +27,4 @@ Enfin, des visualisations de graphes (notamment via des algorithmes de spatialis
 *Le code source complet et les rapports de ce projet sont disponibles dans le dossier `Analyse MSHS-T` de mon répertoire.*
 
 ## 📈 Résultats et Apports
-*(À compléter : décrivez ici vos conclusions sur les collaborations intersciences à Toulouse)*
+*(À compléter)*
